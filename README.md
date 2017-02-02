@@ -14,6 +14,10 @@ This script is not robust at all, does not perform any input checking etc...! It
 # Mangatraders download script v2
 The first version downloads directly from one of their hosting servers. However some series are not uploaded there and thus the script may fail. this v2 scrapes the actual online reader page, so it should be more robust that way, but may be a bit slower. Though the disclaimers still apply. I suggest trying the v1 first and if it fails, try v2.
 
+You may also be required to install pyquery module:
+
+    pip pyquery
+
 Usage:
 
     mt_scrape.py Online-reader-link
